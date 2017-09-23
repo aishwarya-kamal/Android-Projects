@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Background color for the numbers category -->
+    <color name="numbers_category">#663399</color>
+
+    <!-- Background color for the family members category -->
+    <color name="family_members_category">#F62459</color>
+
+    <!-- Background color for the colors category -->
+    <color name="colors_category">#1ECFD6</color>
+
+    <!-- Background color for the quiz category -->
+    <color name="fruits_category">#aeea00</color>
+
+    <!-- Background color for the colors category -->
+    <color name="body_parts_category">#0d47a1</color>
+
+    <!-- Background color for the phrases category -->
+    <color name="animals_category">#00796b</color>
+
+    <!-- Background color for the phrases category -->
+    <color name="phrases_category">#F7CA18</color>
+
+    <!-- Background color for the quiz category -->
+    <color name="quiz_category">#F9690E</color>
+
+    <color name="color_for_members_of_numbers_category">#CDDC39</color>
+
+    <color name="color_for_every_word_that_appears">#ffffff</color>
+
+</resources>

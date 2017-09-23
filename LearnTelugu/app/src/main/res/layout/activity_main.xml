@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.subhashkamal.learntelugu.MainActivity"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/numbers_category"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_gravity="center"
+            style="@style/GeneralCategoryStyle"
+            android:onClick="openNumbersList">
+
+            <ImageView
+                android:src="@drawable/numbers"
+                style="@style/TextAndImageViewOfEachCategoryStyle"
+                android:layout_weight="2.5"
+                android:layout_width="wrap_content" />
+
+            <TextView
+                style="@style/TextAndImageViewOfEachCategoryStyle"
+                android:layout_width="wrap_content"
+                android:text="@string/category_numbers" />
+            </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/family_members_category">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:id="@+id/familyView"
+            style="@style/GeneralCategoryStyle">
+
+            <ImageView
+                android:src="@drawable/family"
+                android:layout_weight="2.5"
+                style="@style/TextAndImageViewOfEachCategoryStyle"
+                android:layout_width="wrap_content" />
+            <TextView
+                android:text="@string/category_family_members"
+                style="@style/TextAndImageViewOfEachCategoryStyle"
+                android:layout_width="wrap_content" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/colors_category">
+    <LinearLayout
+        android:layout_gravity="center"
+        android:id="@+id/colorsView"
+        style="@style/GeneralCategoryStyle">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_weight="2.5"
+            style="@style/TextAndImageViewOfEachCategoryStyle"
+            android:src="@drawable/colors"
+            android:layout_width="wrap_content" />
+        <TextView
+            android:text="@string/category_colors"
+            style="@style/TextAndImageViewOfEachCategoryStyle"
+            android:layout_width="wrap_content" />
+
+    </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/fruits_category">
+    <LinearLayout
+        android:layout_gravity="center"
+        android:id="@+id/fruitsView"
+        style="@style/GeneralCategoryStyle">
+
+        <ImageView
+            android:src="@drawable/fruits"
+            android:layout_weight="2.5"
+            style="@style/TextAndImageViewOfEachCategoryStyle"
+            android:layout_width="wrap_content" />
+        <TextView
+            android:text="@string/category_fruits"
+            style="@style/TextAndImageViewOfEachCategoryStyle"
+            android:layout_width="wrap_content" />
+    </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/body_parts_category">
+    <LinearLayout
+        android:layout_gravity="center"
+        android:id="@+id/bodyView"
+        style="@style/GeneralCategoryStyle">
+
+        <ImageView
+            android:src="@drawable/body"
+            android:layout_weight="2.5"
+            style="@style/TextAndImageViewOfEachCategoryStyle"
+            android:layout_width="wrap_content" />
+        <TextView
+            android:text="@string/category_body_parts"
+            style="@style/TextAndImageViewOfEachCategoryStyle"
+            android:layout_width="wrap_content" />
+    </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/animals_category">
+    <LinearLayout
+        android:layout_gravity="center"
+        android:id="@+id/animalsView"
+        style="@style/GeneralCategoryStyle">
+
+        <ImageView
+            android:src="@drawable/animals"
+            android:layout_weight="2.5"
+            style="@style/TextAndImageViewOfEachCategoryStyle"
+            android:layout_width="wrap_content" />
+        <TextView
+            android:text="@string/category_animals"
+            style="@style/TextAndImageViewOfEachCategoryStyle"
+            android:layout_width="wrap_content" />
+    </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/phrases_category">
+    <LinearLayout
+        android:layout_gravity="center"
+        android:id="@+id/phrasesView"
+        style="@style/GeneralCategoryStyle">
+
+        <ImageView
+            android:src="@drawable/phrases"
+            android:layout_weight="2.5"
+            style="@style/TextAndImageViewOfEachCategoryStyle"
+            android:layout_width="wrap_content" />
+        <TextView
+            android:text="@string/category_phrases"
+            style="@style/TextAndImageViewOfEachCategoryStyle"
+            android:layout_width="wrap_content" />
+    </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/quiz_category">
+    <LinearLayout
+        android:layout_gravity="center"
+        android:id="@+id/quizView"
+        style="@style/GeneralCategoryStyle">
+
+        <ImageView
+            android:src="@drawable/quiz"
+            android:layout_weight="2.5"
+            style="@style/TextAndImageViewOfEachCategoryStyle"
+            android:layout_width="wrap_content" />
+        <TextView
+            android:text="@string/category_quiz"
+            style="@style/TextAndImageViewOfEachCategoryStyle"
+            android:layout_width="wrap_content" />
+    </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

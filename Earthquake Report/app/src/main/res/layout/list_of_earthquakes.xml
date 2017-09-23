@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/magnitudeTextView"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/magnitude_circle"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:paddingLeft="4dp"
+        tools:text="8.9" />
+
+        <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="16dp"
+        android:orientation="vertical" >
+
+            <TextView
+            android:id="@+id/offsetTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Offset"
+            android:textAllCaps="true"
+            android:textColor="@color/offsetColour"
+            android:layout_weight="0.5"
+            android:textSize="13sp"
+            android:paddingTop="3dp"
+            android:gravity="left"/>
+
+            <TextView android:id="@+id/primaryLocationTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:textColor="@color/primaryLocationColour"
+            android:textSize="16sp"
+            android:layout_weight="0.5"
+            android:paddingBottom="3dp"
+            android:gravity="left"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/dateTextView"
+                android:paddingTop="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:layout_weight="0.25"
+                android:layout_gravity="center"
+                android:textColor="@color/offsetColour"/>
+
+            <TextView
+                android:id="@+id/timeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time"
+                android:layout_weight="0.25"
+                android:layout_gravity="center"
+                android:textColor="@color/offsetColour"/>
+
+        </LinearLayout>
+
+
+</LinearLayout>

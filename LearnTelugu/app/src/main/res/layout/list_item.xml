@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="4"
+    android:padding="16dp"
+    android:background="@color/numbers_category">
+
+    <ImageView
+        android:id="@+id/image"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/telugu_language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Okati"
+            android:textStyle="bold"
+            android:textColor="@color/color_for_every_word_that_appears"/>
+
+        <TextView
+            android:id="@+id/default_language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="One"
+            android:textStyle="bold"
+            android:textColor="@color/color_for_every_word_that_appears"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/micImage"
+        android:src="@drawable/mic"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>

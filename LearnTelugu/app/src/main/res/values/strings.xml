@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Learn Telugu</string>
+
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_phrases">Phrases</string>
+
+    <!-- Category name for the colors category [CHAR LIMIT=20] -->
+    <string name="category_colors">Colors</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_numbers">Numbers</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_family_members">Family Members</string>
+
+    <!-- Category name for the animals [CHAR LIMIT=20] -->
+    <string name="category_animals">Animals</string>
+
+    <!-- Category name for fruits [CHAR LIMIT=20] -->
+    <string name="category_fruits">Fruits</string>
+
+    <!-- Category name for body parts [CHAR LIMIT=20] -->
+    <string name="category_body_parts">Body Parts</string>
+
+    <!-- Category name for quiz [CHAR LIMIT=20] -->
+    <string name="category_quiz">Quiz</string>
+
+</resources>
