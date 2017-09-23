@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:background="#E3F2FD"
+    tools:context="com.panda.ash_jose.happydiwali.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+
+        android:gravity="center|center_vertical"
+        android:layout_gravity="fill_horizontal"
+        android:scaleType="fitXY"
+        android:src="@drawable/rama"
+        android:id="@+id/imageView"
+        />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:columnCount="2">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:gravity="center|center_vertical"
+            android:layout_gravity="fill_horizontal"
+            android:drawableTop="@drawable/message"
+            android:paddingTop="30dp"
+            android:paddingBottom="40dp"
+            android:text="Message"
+            android:background="#FF6D00"
+            android:onClick="enterMessage" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:gravity="center|center_vertical"
+            android:layout_gravity="fill_horizontal"
+            android:drawableTop="@drawable/about"
+            android:paddingTop="30dp"
+            android:paddingBottom="40dp"
+            android:text="About"
+            android:background="#FF9100"
+            android:onClick="enterAbout" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="center|center_vertical"
+            android:layout_gravity="fill_horizontal"
+            android:drawableTop="@drawable/history"
+            android:paddingTop="30dp"
+            android:paddingBottom="40dp"
+            android:text="History"
+            android:id="@+id/button_history"
+            android:background="#FF9100"
+            android:onClick="enterHistory" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:gravity="center|center_vertical"
+            android:layout_gravity="fill_horizontal"
+            android:drawableTop="@drawable/suprise"
+            android:paddingTop="30dp"
+            android:paddingBottom="40dp"
+            android:text="surprise"
+            android:id="@+id/button_surprise"
+            android:background="#FF6D00"
+            android:onClick="enterSurprise" />
+
+    </GridLayout>
+
+
+</LinearLayout>
