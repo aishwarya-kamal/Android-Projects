@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout for a single list item -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/primaryColor"
+    >
+
+    <TextView
+        android:id="@+id/news_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="4"
+        android:text="Headline"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:textSize="20sp"
+        android:textColor="@color/primaryTextColor"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="8dp"/>
+
+    <ImageView
+        android:id="@+id/news_image"
+        android:layout_width="fill_parent"
+        android:layout_height="255dp"/>
+
+    <TextView
+        android:id="@+id/news_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Headline"
+        android:textSize="18sp"
+        android:textColor="@color/secondaryDarkColor"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="10dp"/>
+
+
+</LinearLayout>
